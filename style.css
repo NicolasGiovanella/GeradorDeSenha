@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+:root {
+    --cor: rgb(50, 124, 158);
+} /*criando uma varial dentro css*/
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--cor) ;/*chamando a variavel dentro css*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+input{
+    font-size: 24px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+input:focus{
+    outline: 1px solid rgb(100, 21, 21);
+}
+
+button{
+    border:none;
+    background: var(--cor);
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(93, 125, 233);
+}
